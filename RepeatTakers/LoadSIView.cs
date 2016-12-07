@@ -21,6 +21,8 @@ namespace RepeatTakers
 
             // Create your application here
             SetContentView(Resource.Layout.SIView);
+
+
         }
     }
 }
