@@ -14,17 +14,16 @@ namespace RepeatTakers
 {
     class SIView
     {
-        [Activity(Label = "RepeatTakers", MainLauncher = true, Icon = "@drawable/icon")]
+        [Activity(Label = "RepeatTakers")]
 
         public class SIViewFormLoad: Activity
         {
             protected override void OnCreate(Bundle bundle)
             {
-                //base.OnCreate(bundle);
-                //SetContentView(Resource.Layout.SIView);
-
+                base.OnCreate(bundle);
+                SetContentView(Resource.Layout.SIView);
                 var buttonClicked = FindViewById<Button>(Resource.Id.flashcardsButton);
-                buttonClicked.Click += delegate { StartActivity(typeof(LoadSIView)); };
+                buttonClicked.Click += delegate { StartActivity(typeof(SIView)); };
             }
 
         }
