@@ -28,7 +28,8 @@
             android:text="Demo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/demoButton" />
+            android:id="@+id/demoButton"
+            android:visibility="invisible" />
         <Button
             android:text="Login"
             android:layout_width="match_parent"

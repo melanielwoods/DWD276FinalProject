@@ -12,15 +12,18 @@ using Android.Widget;
 
 namespace RepeatTakers
 {
-    [Activity(Label = "LoadStudyCategories")]
-    public class LoadStudyCategories : Activity
+    [Activity(Label = "MainMenuActivity")]
+    public class MainMenuActivity : Activity
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(savedInstanceState);
-
+            base.OnCreate(bundle);
             // Create your application here
             SetContentView(Resource.Layout.MainMenu);
+            var buttonClicked = FindViewById<Button>(Resource.Id.flashcardsButton);
+            buttonClicked.Click += delegate { StartActivity(typeof(LoadSIView)); };
         }
+
+
     }
 }

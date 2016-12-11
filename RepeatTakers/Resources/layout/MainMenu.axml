@@ -20,11 +20,13 @@
             android:text="Graphical Examples"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/graphicalexamplesButton" />
+            android:id="@+id/graphicalexamplesButton"
+            android:enabled="false" />
         <Button
             android:text="Notes Made Simple"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/notesButton" />
+            android:id="@+id/notesButton"
+            android:enabled="false" />
     </LinearLayout>
 </LinearLayout>

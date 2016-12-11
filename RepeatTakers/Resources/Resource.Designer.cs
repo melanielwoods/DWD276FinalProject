@@ -51,13 +51,16 @@ namespace RepeatTakers
 			public const int i29 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Icon = 2130837506;
+			public const int i38 = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int scales = 2130837507;
+			public const int Icon = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int tort = 2130837508;
+			public const int scales = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int tort = 2130837509;
 			
 			static Drawable()
 			{
@@ -75,17 +78,29 @@ namespace RepeatTakers
 			// aapt resource value: 0x7f05000f
 			public const int RepeatLogo = 2131034127;
 			
+			// aapt resource value: 0x7f050018
+			public const int Torts = 2131034136;
+			
 			// aapt resource value: 0x7f050001
 			public const int allButton = 2131034113;
 			
 			// aapt resource value: 0x7f05000c
 			public const int button1 = 2131034124;
 			
+			// aapt resource value: 0x7f050015
+			public const int constitutionalLawButton = 2131034133;
+			
 			// aapt resource value: 0x7f050002
 			public const int constitutionallawButton = 2131034114;
 			
 			// aapt resource value: 0x7f050003
 			public const int contractsButton = 2131034115;
+			
+			// aapt resource value: 0x7f050016
+			public const int criminalLawButton = 2131034134;
+			
+			// aapt resource value: 0x7f050017
+			public const int criminalProcedureButton = 2131034135;
 			
 			// aapt resource value: 0x7f050004
 			public const int criminallawButton = 2131034116;
@@ -123,20 +138,20 @@ namespace RepeatTakers
 			// aapt resource value: 0x7f050011
 			public const int loginButton = 2131034129;
 			
-			// aapt resource value: 0x7f050017
-			public const int nextBtn = 2131034135;
+			// aapt resource value: 0x7f05001b
+			public const int nextBtn = 2131034139;
 			
 			// aapt resource value: 0x7f050014
 			public const int notesButton = 2131034132;
 			
-			// aapt resource value: 0x7f050016
-			public const int previousBtn = 2131034134;
+			// aapt resource value: 0x7f05001a
+			public const int previousBtn = 2131034138;
 			
 			// aapt resource value: 0x7f050007
 			public const int propertyButton = 2131034119;
 			
-			// aapt resource value: 0x7f050015
-			public const int studyImageView = 2131034133;
+			// aapt resource value: 0x7f050019
+			public const int studyImageView = 2131034137;
 			
 			// aapt resource value: 0x7f05000e
 			public const int textView1 = 2131034126;

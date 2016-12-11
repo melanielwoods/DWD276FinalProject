@@ -9,7 +9,7 @@ using Android.Runtime;
 
 namespace RepeatTakers
 {
-    [Activity(Label = "RepeatTakers", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "RepeatTakers2", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -18,6 +18,8 @@ namespace RepeatTakers
 
             // Set our view from the "main" layout resource
              SetContentView (Resource.Layout.Main);
+            var buttonClicked = FindViewById<Button>(Resource.Id.loginButton);
+            buttonClicked.Click += delegate { StartActivity(typeof(MainMenuActivity)); };
         }
     }
 }

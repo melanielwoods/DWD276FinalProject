@@ -21,7 +21,8 @@ namespace RepeatTakers
 
             // Create your application here
             SetContentView(Resource.Layout.SIView);
-
+            var buttonClicked = FindViewById<Button>(Resource.Id.allButton);
+            buttonClicked.Click += delegate { StartActivity(typeof(LoadImageActivity)); };
 
         }
     }

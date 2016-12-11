@@ -2,6 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridLayout1"
+        android:columnCount="2">
+        <Button
+            android:text="All"
+            android:id="@+id/allButton" />
+        <Button
+            android:text="Constitutional Law"
+            android:id="@+id/constitutionalLawButton" />
+        <Button
+            android:text="Contracts"
+            android:id="@+id/contractsButton" />
+        <Button
+            android:text="Criminal Law"
+            android:id="@+id/criminalLawButton" />
+        <Button
+            android:text="Criminal Procedure"
+            android:id="@+id/criminalProcedureButton" />
+        <Button
+            android:text="Evidence"
+            android:id="@+id/evidenceButton" />
+        <Button
+            android:text="Property"
+            android:id="@+id/propertyButton" />
+        <Button
+            android:text="Torts"
+            android:id="@+id/Torts" />
+    </GridLayout>
 </LinearLayout>
