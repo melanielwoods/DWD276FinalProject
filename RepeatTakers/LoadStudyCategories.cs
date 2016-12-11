@@ -19,8 +19,8 @@ namespace RepeatTakers
         {
             base.OnCreate(savedInstanceState);
 
-            // Create your application here
-            SetContentView(Resource.Layout.MainMenu);
+            var buttonClicked = FindViewById<Button>(Resource.Id.allButton);
+            buttonClicked.Click += delegate { StartActivity(typeof(StudyImage)); };
         }
     }
 }

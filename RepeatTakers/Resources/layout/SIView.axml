@@ -17,24 +17,31 @@
             android:id="@+id/allButton" />
         <Button
             android:text="Constitutional Law"
-            android:id="@+id/constitutionalLawButton" />
+            android:id="@+id/constitutionalLawButton"
+            android:enabled="false" />
         <Button
             android:text="Contracts"
-            android:id="@+id/contractsButton" />
+            android:id="@+id/contractsButton"
+            android:enabled="false" />
         <Button
             android:text="Criminal Law"
-            android:id="@+id/criminalLawButton" />
+            android:id="@+id/criminalLawButton"
+            android:enabled="false" />
         <Button
             android:text="Criminal Procedure"
-            android:id="@+id/criminalProcedureButton" />
+            android:id="@+id/criminalProcedureButton"
+            android:enabled="false" />
         <Button
             android:text="Evidence"
-            android:id="@+id/evidenceButton" />
+            android:id="@+id/evidenceButton"
+            android:enabled="false" />
         <Button
             android:text="Property"
-            android:id="@+id/propertyButton" />
+            android:id="@+id/propertyButton"
+            android:enabled="false" />
         <Button
             android:text="Torts"
-            android:id="@+id/Torts" />
+            android:id="@+id/Torts"
+            android:enabled="false" />
     </GridLayout>
 </LinearLayout>
